@@ -8,7 +8,7 @@ export default async function Home() {
   return (
     <main className="my-36">
       <Container>
-        <ul className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <ul className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 sm:gap-4">
           {blogs.map((blog) => {
             return <BlogCard key={blog.id} blog={blog} />;
           })}
